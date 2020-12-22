@@ -8,7 +8,7 @@ import Stepper from 'bs-stepper';
 })
 export class BookVehicleComponent implements OnInit {
   private stepper: Stepper;
-
+ 
   constructor() { }
 
   ngOnInit(): void {
@@ -17,7 +17,7 @@ export class BookVehicleComponent implements OnInit {
       animation: true
     })
   }
-  prev() {
+  prev(){
     this.stepper.previous();
   }
 

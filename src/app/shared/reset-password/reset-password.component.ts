@@ -7,15 +7,15 @@ import { NgForm } from '@angular/forms';
   styleUrls: ['./reset-password.component.scss']
 })
 export class ResetPasswordComponent implements OnInit {
-  email: string
-  mobile: string
-  password: string
-  conpassword: string
+email:string
+mobile:string
+password:string
+conpassword:string
   constructor() { }
 
   ngOnInit(): void {
   }
-  onSubmit(credentials: NgForm) {
+onSubmit(credentials:NgForm){
 
-  }
+}
 }

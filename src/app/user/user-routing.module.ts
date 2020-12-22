@@ -5,16 +5,17 @@ import { AdminDashboardComponent } from './admin-dashboard/admin-dashboard.compo
 
 
 const routes: Routes = [
-    { path: 'addvehicle', component: AddVehicleComponent },
-    { path: 'admindash', component: AdminDashboardComponent },
+    {path:'addvehicle',component:AddVehicleComponent},
+    {path:'admindash',component:AdminDashboardComponent},
 
-
-
-
-
-];
-@NgModule({
+    
+    
+   
+    
+  ];
+  @NgModule({
     imports: [RouterModule.forRoot(routes)],
     exports: [RouterModule]
-})
-export class UserRoutingModule { }
+  })
+  export class UserRoutingModule{}
+  
