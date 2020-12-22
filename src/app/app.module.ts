@@ -15,6 +15,9 @@ import { SigninModalComponent } from './shared/signin-modal/signin-modal.compone
 import { SignupComponent } from './shared/signup/signup.component';
 import { ResetPasswordComponent } from './shared/reset-password/reset-password.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { BookVehicleComponent } from './booking/book-vehicle/book-vehicle.component';
+import { AddVehicleComponent } from './user/add-vehicle/add-vehicle.component';
+import { AdminDashboardComponent } from './user/admin-dashboard/admin-dashboard.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +28,10 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     FooterComponent,
     SigninModalComponent,
     SignupComponent,
-    ResetPasswordComponent
+    ResetPasswordComponent,
+    BookVehicleComponent,
+    AddVehicleComponent,
+    AdminDashboardComponent
   ],
   imports: [
     BrowserModule,
